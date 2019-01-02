@@ -1,0 +1,42 @@
+#str1 {
+    text-align: center;
+}
+
+.choise {
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 18px;
+    width: 400px;
+    height: 300px;
+    float: left;
+    border: black solid 3px;
+}
+
+.choise:hover {
+    cursor: pointer;
+    border-color: #d34d43;
+}
+
+.choise_img {
+    height: 160px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.choise:hover::after {
+    content: attr(inf);
+    position: fixed;
+    margin-top: 400px;
+    left: 0px;
+    width: 1364px;
+    background: black;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    padding: center;
+    border: 1px solid green;
+    text-align: center;
+}

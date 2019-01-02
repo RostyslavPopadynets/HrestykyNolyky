@@ -1,0 +1,123 @@
+.str1 {
+    text-align: center;
+}
+
+#computer1Name:hover,
+#computer2Name:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.back,
+.nul,
+.play {
+    background: -moz-linear-gradient(#4af264, #39ba4d, #4af264);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#4af264), to(#4af264), color-stop(0.5, #39ba4d));
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.back:hover,
+.nul:hover,
+.play:hover {
+    cursor: pointer;
+}
+
+.computer1Info {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.game {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 420px;
+    height: 450px;
+    float: left;
+}
+
+.computer2Info {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+#computer1Score,
+#computer2Score {
+    margin-top: 100px;
+    font-size: 100px;
+    color: green;
+}
+
+.fields {
+    width: 128px;
+    height: 128px;
+    float: left;
+}
+
+#field1,
+#field4 {
+    margin-left: 10px;
+    border-right: solid 5px black;
+    border-bottom: solid 5px black;
+}
+
+#field2,
+#field5 {
+    border-right: solid 5px black;
+    border-bottom: solid 5px black;
+}
+
+#field3,
+#field6 {
+    border-bottom: solid 5px black;
+}
+
+#field7 {
+    margin-left: 10px;
+    border-right: solid 5px black;
+}
+
+#field8 {
+    border-right: solid 5px black;
+}
+
+#field1:hover,
+#field2:hover,
+#field3:hover,
+#field4:hover,
+#field5:hover,
+#field6:hover,
+#field7:hover,
+#field8:hover,
+#field9:hover {
+    cursor: pointer;
+}
+
+.nul {
+    float: right;
+    background: -moz-linear-gradient(#4af264, #39ba4d, #4af264);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#4af264), to(#4af264), color-stop(0.5, #39ba4d));
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.play {
+    margin-left: 570px;
+    float: center;
+    background: -moz-linear-gradient(#4af264, #39ba4d, #4af264);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#4af264), to(#4af264), color-stop(0.5, #39ba4d));
+    border: solid 2px black;
+    border-radius: 5px;
+}
